@@ -11,8 +11,8 @@ module load Nextflow/24.10.2
 module load Miniconda3/23.10.0-1
 
 #TODO Check whether I need to set these paths or whether conda.cacheDir in nextflow.config is sufficient
-export CONDA_ENVS_PATH=/data/gpfs/projects/punim2267/gfirth/conda/envs
-export CONDA_PKGS_DIRS=/data/gpfs/projects/punim2267/gfirth/conda/pkgs
-export CONDA_REPODATA_DIR=/data/gpfs/projects/punim2267/gfirth/conda/repodata
+#export CONDA_ENVS_PATH=/data/gpfs/projects/punim2267/gfirth/conda/envs
+#export CONDA_PKGS_DIRS=/data/gpfs/projects/punim2267/gfirth/conda/pkgs
+#export CONDA_REPODATA_DIR=/data/gpfs/projects/punim2267/gfirth/conda/repodata
 
 nextflow run main.nf -resume
