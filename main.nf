@@ -28,7 +28,7 @@ workflow {
     // Create input channel from genomes with paired GFF
     //
 
-    genome_ch = channel.of( tuple( 'TbruceiLister427', file(params.fasta) ) )
+    genome_ch = channel.of( tuple( 'Lmexicana', file(params.fasta) ) )
 
     indexed_genome_ch = GENOME_INDEXING( genome_ch )
 
