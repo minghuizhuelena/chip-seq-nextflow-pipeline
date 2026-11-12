@@ -1,5 +1,5 @@
 sample,fastq_1,fastq_2,replicate,antibody,control,control_replicate
-ChIP,input/trimmed_ChIP04.R1.fastq.gz,input/trimmed_ChIP04.R2.fastq.gz,1,BG4,INPUT1,1
-ChIP,input/trimmed_ChIP05.R1.fastq.gz,input/trimmed_ChIP05.R2.fastq.gz,2,BG4,INPUT1,1
-ChIP,input/trimmed_ChIP06.R1.fastq.gz,input/trimmed_ChIP06.R2.fastq.gz,3,BG4,INPUT1,1
-INPUT1,input/trimmed_Input02.R1.fastq.gz,input/trimmed_Input02.R2.fastq.gz,1,,,
+LM_B1,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_1_1.trimmed.fq.gz,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_1_2.trimmed.fq.gz,1,BG4,LM_B1_INPUT,1
+LM_B1,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_2_1.trimmed.fq.gz,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_2_2.trimmed.fq.gz,2,BG4,LM_B1_INPUT,1
+LM_B1,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_3_1.trimmed.fq.gz,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_3_2.trimmed.fq.gz,3,BG4,LM_B1_INPUT,1
+LM_B1_INPUT,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_0_1.trimmed.fq.gz,/data/projects/punim2267/minghuizhu/Lmex_G4_ChIPseq/trimmed_data/LM_2_0_2.trimmed.fq.gz,1,,,
